@@ -47,6 +47,20 @@ To get battery level
 
     xBATVOLy
 
+It will return something like
+
+    6-11.63*
+
+# Streaming
+
+The instructions above is with 1 party sending moves over Bluetooth, the other playing on the board.
+
+To just follow the moves of a game we need to send all moves to the board. Rather than `xGAMEBLACKz`, start streaming with
+
+    xLIVEz
+
+
+
 # Todo
 
 ## Ending
@@ -73,12 +87,11 @@ Is something like
     ...
     xCODONEz
 
+And finally
+
+    15-OK*
+
 This needs to be deciphered.
 
-## Streaming
-
-The instructions above is with 1 party sending moves over Bluetooth, the other playing on the board.
-
-To just follow the moves of a game we need to send all moves to the board.
 
 
